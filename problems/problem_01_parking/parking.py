@@ -22,6 +22,7 @@ class Bike(Vehicle):
     def __init__(self, plate:str):
         super().__init__(plate, base_fee=2.0)
 
+
 class Ticket:
     def __init__(self, vehicle:Vehicle, entry_time:datetime):
         self._vehicle=vehicle
