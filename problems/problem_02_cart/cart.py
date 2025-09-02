@@ -54,7 +54,7 @@ class PercentageDiscount(DiscountRule):
     def describe(self):
         return f"{self.percent}% off entire order"
 
-# Buy 2 Get 1 Free on specific item
+# Buy 2 Get 1 Free
 class BuyXGetYDiscount(DiscountRule):
     def __init__(self, item_name, buy_qty, free_qty):
         self.item_name = item_name

@@ -68,4 +68,3 @@ if __name__ == "__main__":
     print(f"Fee: {t2.total_fee()} | Plate: {t2.vehicle.plate}")
 
 
-
